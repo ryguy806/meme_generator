@@ -4,7 +4,11 @@ class MemeGenerator extends Component {
 
     constructor() {
         super();
-        this.state = {};
+        this.state = {
+            top: '',
+            bottom: '',
+            random_image: "http://i.imgflip.com/1bij.jpg",
+        };
     }
 
     render() {
